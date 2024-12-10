@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <>
+      Date: 12/9/2024
       <h1 className="m-2 text-2xl underline hover:underline-offset-4 text-green-500">Premier League</h1>
       <p className='mx-10 my-2'>The Premier League is the highest level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL). Seasons usually run from August to May, with each team playing 38 matches: two against each other team, one home and one away.[1] Most games are played on weekend afternoons, with occasional weekday evening fixtures.</p>
 
