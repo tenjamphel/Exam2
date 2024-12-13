@@ -6,13 +6,14 @@ export default function Page() {
         <label htmlFor="product" className="ml-5">Product Description</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
         <br />
-        <label htmlFor="cars">Choose a car:</label>
+        <label htmlFor="teams">Choose a team:</label>
 
-        <select name="cars" id="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+        <select name="teams" id="teams">
+        <option value="manchester city">Manchester City</option>
+        <option value="liverpool">Liverpool</option>
+        <option value="aesenal">Arsenal</option>
+        <option value="chealse">Chealse</option>
+        <option value="manchester united">Manchester United</option>
         </select>
 
         <br />
@@ -28,10 +29,10 @@ export default function Page() {
         </div>
 
         <div className="ml-5 mt-5">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label htmlFor="vehicle1"> I have a bike</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label htmlFor="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="ticket1" name="ticket" value="Home Game" />
+        <label htmlFor="ticket1"> I have a home game ticket</label><br />
+        <input type="checkbox" id="ticket2" name="ticket2" value="Away Game" />
+        <label htmlFor="ticket2"> I have a away game ticket</label><br />
         </div>
 
         <br />
