@@ -4,7 +4,7 @@ export default function Page() {
       <h1 className="text-3xl ml-5">Final Exam</h1>
       <form>
         <label htmlFor="product" className="ml-5">Product Description</label>
-        <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+        <input type="text" name="product" id="product" className="m-5 text-black bg-blue-300"/>
         <br />
         <label htmlFor="teams">Choose a team:</label>
 
