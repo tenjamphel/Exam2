@@ -18,6 +18,13 @@ export default function Page() {
 
         <br />
 
+        <div className="ml-5 mt-5">
+        <input type="checkbox" id="ticket1" name="ticket" value="Home Game" />
+        <label htmlFor="ticket1"> I have a home game ticket</label><br />
+        <input type="checkbox" id="ticket2" name="ticket2" value="Away Game" />
+        <label htmlFor="ticket2"> I have a away game ticket</label><br />
+        </div>
+
 
         <div className="ml-5 mt-5">
         <input type="radio" id="home jersey" name="fav_jersey" value="Home Jersey" />
@@ -26,13 +33,6 @@ export default function Page() {
         <label htmlFor="away jersey">Away Jersey</label><br />
         <input type="radio" id="3rd jersey" name="fav_jersey" value="3rd Jersey"/>
         <label htmlFor="3rd jersey">3rd Jersey</label>
-        </div>
-
-        <div className="ml-5 mt-5">
-        <input type="checkbox" id="ticket1" name="ticket" value="Home Game" />
-        <label htmlFor="ticket1"> I have a home game ticket</label><br />
-        <input type="checkbox" id="ticket2" name="ticket2" value="Away Game" />
-        <label htmlFor="ticket2"> I have a away game ticket</label><br />
         </div>
 
         <br />
