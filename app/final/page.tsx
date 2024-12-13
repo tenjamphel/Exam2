@@ -20,12 +20,12 @@ export default function Page() {
 
 
         <div className="ml-5 mt-5">
-        <input type="radio" id="html" name="fav_language" value="HTML" />
-        <label htmlFor="html">HTML</label><br />
-        <input type="radio" id="css" name="fav_language" value="CSS"/>
-        <label htmlFor="css">CSS</label><br />
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
-        <label htmlFor="javascript">JavaScript</label>
+        <input type="radio" id="home jersey" name="fav_jersey" value="Home Jersey" />
+        <label htmlFor="home jersey">Home Jersey</label><br />
+        <input type="radio" id="away jersey" name="fav_jersey" value="Away Jersey"/>
+        <label htmlFor="away jersey">Away Jersey</label><br />
+        <input type="radio" id="3rd jersey" name="fav_jersey" value="3rd Jersey"/>
+        <label htmlFor="3rd jersey">3rd Jersey</label>
         </div>
 
         <div className="ml-5 mt-5">
